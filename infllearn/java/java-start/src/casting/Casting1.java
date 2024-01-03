@@ -19,5 +19,7 @@ public class Casting1 {
 
         doublevalue = 20l; //long -> double
         System.out.println("dooublevlaue 2 = " + doublevalue);
+        // 이런 것들을 자동 형변환, 또는 묵시적 형변환이라고 한다
+
     }
 }
