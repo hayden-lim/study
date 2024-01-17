@@ -23,7 +23,9 @@ public class ScannerWhileEx5 {
             }
             sum += input;
             count++;
-        }
+
+            }
+
 
         double average = (double) sum / count;
         System.out.println("입력한 숫자들의 합계 : " + sum);
