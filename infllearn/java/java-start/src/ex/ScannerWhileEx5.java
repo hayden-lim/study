@@ -26,9 +26,16 @@ public class ScannerWhileEx5 {
 
             }
 
-
         double average = (double) sum / count;
         System.out.println("입력한 숫자들의 합계 : " + sum);
         System.out.println("입력한 숫자들의 평균 : " + average);
     }
-}
+
+/*
+        while ((input = scanner.nextInt()) != -1) {
+            sum += input;
+            count++;
+*/
+        }
+
+
