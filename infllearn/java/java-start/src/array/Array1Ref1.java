@@ -5,6 +5,9 @@ public class Array1Ref1 {
         int[] students; // 배열 변수 선언
         students = new int[6];
 
+        System.out.println(students);
+        //I@a09ee92 -> I int 형 배열, @뒤가 메모리의 참조값을 16진수로 표현한것
+        
         //변수 값 대입
         students[0] = 90;
         students[1] = 80;
