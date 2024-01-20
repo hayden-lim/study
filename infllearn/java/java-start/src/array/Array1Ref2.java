@@ -1,6 +1,6 @@
 package array;
 
-public class Array1Ref1 {
+public class Array1Ref2 {
     public static void main(String[] args) {
         int[] students; // 배열 변수 선언
         students = new int[6];
@@ -17,11 +17,8 @@ public class Array1Ref1 {
         students[5] = 40;
 
         //변수 값 사용
-        System.out.println("학생 1의 점수: " + students[0]);
-        System.out.println("학생 2의 점수: " + students[1]);
-        System.out.println("학생 3의 점수: " + students[2]);
-        System.out.println("학생 4의 점수: " + students[3]);
-        System.out.println("학생 5의 점수: " + students[4]);
-        System.out.println("학생 6의 점수: " + students[5]);
+        for (int i = 0; i < 5; i++) {
+            System.out.println("학생" + (i + 1) + "점수 : " + students[i]);
+        }
     }
 }
