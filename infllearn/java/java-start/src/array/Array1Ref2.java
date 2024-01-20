@@ -17,7 +17,7 @@ public class Array1Ref2 {
         students[5] = 40;
 
         //변수 값 사용
-        for (int i = 0; i < 5; i++) {
+        for (int i = 0; i < students.length; i++) { //(int i = 0; i < 5; i++) {
             System.out.println("학생" + (i + 1) + "점수 : " + students[i]);
         }
     }
