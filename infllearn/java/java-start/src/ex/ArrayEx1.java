@@ -1,6 +1,6 @@
 package ex;
 
-public class ArryEx1 {
+public class ArrayEx1 {
     public static void main(String[] args) {
         int[] students = {90, 80, 70, 60, 50};
 
