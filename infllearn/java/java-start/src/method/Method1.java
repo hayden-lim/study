@@ -16,4 +16,7 @@ public class Method1 {
         int sum2 = x + y;
         System.out.println(" 결과 2 출력 : " + sum2);
     }
+
+
+
 }
