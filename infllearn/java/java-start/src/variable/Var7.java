@@ -2,11 +2,13 @@ package variable;
 
 public class Var7 {
     public static void main(String[] args) {
+        // 변수의 종류
+
         int a = 100; //정수 1, 100, 1000
         double b = 10.5 ; //실수 0.2, 1.5, 100.121
         boolean c = true; // 불리언(boolean) true, false 입력 가능 참과 거짓을 판단하는 곳에서 주로 사용
         char d = 'A'; //문자 하나. 작은 따옴표 사용
-        String e = "Hello Java"; //문자열, 문자열을 다루기 위한 특별한 타입. 큰 따옴표 사용해야 함
+        String e = "Hello Java"; //문자열, 문자열을 다루기 위한 특별한 타입. 큰 따옴표 사용해야 함 스트링은 앞이 꼭 대문자 String
 
         int z = 100;
 
@@ -18,6 +20,8 @@ public class Var7 {
         System.out.println(c);
         System.out.println(d);
         System.out.println(e);
+
+        // command + D = duplicate line (줄 복사)
 
 
 
