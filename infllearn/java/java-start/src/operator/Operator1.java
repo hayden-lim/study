@@ -32,7 +32,7 @@ public class Operator1 {
         int mod = a % b;
         System.out.println("a % b = " + mod);
 
-        // 0 으로는 수학적으로 나누기 불가 (수학적 허용 불가)
+        // 0 으로는 수학적으로 나누기 불가 (수학적 허용 불가) 
 
 
     }
