@@ -2,9 +2,10 @@ package operator;
 
 public class Operator2 {
     public static void main(String[] args) {
+    // 자바는 문자열에도 + 연산자를 사용할 수 있음
 
         //문자열과 문자열 더하기1
-        String result1 = "hello " + "world";
+        String result1 = "hello" + " world";
         System.out.println(result1);
 
         //문자열과 문자열 더하기2
