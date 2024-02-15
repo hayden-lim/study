@@ -20,12 +20,13 @@ public class Operator2 {
         // > 자바가 숫자를 문자열로 바꿔서 붙여버림
 
         //문자열과 숫자 더하기2
-
         int num = 20;
         String str = "a + b = ";
         String result4 = str + num;
         System.out.println(result4);
+
         // 자바는 문자열인 String 타입에 다른 타입을 더할 경우 대상을 모두 문자열로 변경
+        // 숫자도 문자로의 숫자로 변경한다는 의미
 
 
 
