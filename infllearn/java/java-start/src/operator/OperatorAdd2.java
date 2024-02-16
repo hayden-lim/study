@@ -8,11 +8,11 @@ public class OperatorAdd2 {
 
         b = ++a; // a의 값을 먼저 증가시키고 그 결과를 b에 대입시킴
         System.out.println("a = " + a + ", b = " +b);
-
+        // a = 2, b = 2
         //++a = a = a + 1
         //b = a 이후에 a 를 대입
 
-        // ctrl + R = 마지막에 실행한것 다시 실행 shift + ctrl + R = 현재 메인을 모두 실행
+        // ctrl + R = 마지막에 실행한것 다시 실행(이전 코드 실행) shift + ctrl + R = 현재 메인을 모두 실행
 
         //후위 증감 연산자 사용 예
         a = 1; //a 값을 다시 1로 지정
