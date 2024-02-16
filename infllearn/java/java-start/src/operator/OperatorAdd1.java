@@ -2,7 +2,7 @@ package operator;
 
 public class OperatorAdd1 {
     public static void main(String[] args) {
-        //증감 연산자
+        //증감 연산자 = 증가 + 감소 연산자
         int a = 0;
 
         a = a + 1;
@@ -11,7 +11,7 @@ public class OperatorAdd1 {
         a = a + 1;
         System.out.println("a = " + a); //2
 
-        //증감 연산자 (제공)
+        //증감 연산자 (많이 써서 자바가 제공해줌)
 
         ++a; //a = a + 1
         System.out.println("a = " + a); //3
