@@ -25,13 +25,10 @@ public class OperatorAdd2 {
         // a = a + 1; // 그 이후에 a 값을 증가 a = 2
 
         //증감 연산자를 단독으로 사용할 경우 결과가 같음 (본인의 연산만 하기 때문)
-
         ++a;
         System.out.println("a = " + a);
         a++;
         System.out.println("a = " + a);
-        
-
 
 
     }
