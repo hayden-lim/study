@@ -7,6 +7,8 @@ public class Comp2 {
 
         String str1 = "문자열1";
         String str2 = "문자열2";
+        // cmmd + d = 라인 복사
+
 
         boolean result1 = "hello".equals("hello"); //리터럴 비교
         boolean result2 = str1.equals("문자열1"); //문자열 변수, 리터럴 비교
@@ -16,6 +18,7 @@ public class Comp2 {
         System.out.println(result2);
         System.out.println(result3);
 
+        // 단축기 (문장완성)
         // ctrl + shift + enter 문장 완성 시켜줌
 
 
