@@ -1,6 +1,7 @@
 package operator;
 
 public class Logical2 {
+    // 논리 연산자 예시
     public static void main(String[] args) {
         int a = 15;
         //a는 10보다 크고 20보다 작다
