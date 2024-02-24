@@ -9,7 +9,8 @@ public class OperatorEx1 {
         int sum = num1 + num2 + num3;
         int average = sum / 3;
 
-        System.out.println("sum = " + sum);
-        System.out.println("average = " + average);
+        System.out.println(sum);
+        System.out.println(average);
+
     }
 }

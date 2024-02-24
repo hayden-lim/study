@@ -14,6 +14,6 @@ public class Assign1 {
         a %= 3; // 2 (26 % 3) : a = a % 3
         System.out.println(a);
 
-        자바 강의가 왜 안나올까...
+        //자바 강의가 왜 안나올까...
     }
 }
