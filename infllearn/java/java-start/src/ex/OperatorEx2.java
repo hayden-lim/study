@@ -10,9 +10,9 @@ public class OperatorEx2 {
         double sum = val1 + val2 + val3;
         double average = sum / 3;
 
-        
-        System.out.println("sum = " + sum);
-        System.out.println("average = " + average);
+
+        System.out.println("합계 = " + sum);
+        System.out.println("평균 = " + average);
 
 
     }
