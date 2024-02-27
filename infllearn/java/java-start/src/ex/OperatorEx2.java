@@ -15,5 +15,6 @@ public class OperatorEx2 {
         System.out.println("평균 = " + average);
 
 
+        // --> 그냥 sum / average 만 출력해도 되지만 보기 쉽게 이렇게 출력함
     }
 }
