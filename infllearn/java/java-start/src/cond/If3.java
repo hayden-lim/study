@@ -6,7 +6,7 @@ public class If3 {
 
         if (age <= 7) {
             System.out.println(" 미취학 ");
-        
+
         }
 
         if (age >= 8 && age <= 13) {
