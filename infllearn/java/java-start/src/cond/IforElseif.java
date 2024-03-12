@@ -10,7 +10,7 @@ public class IforElseif {
         } else if (condition2) {
             // 작업 2 수행
         }
-        //예시2 if 각각 사용 : 독립 조건일 때 작업1도 수행하고, 그다음 모두 작업2도 수행한다
+        //예시2 if 각각 사용 : 독립 조건일 때
 
         if (condition1) {
             // 작업 1 수행
