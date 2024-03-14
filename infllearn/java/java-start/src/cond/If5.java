@@ -5,14 +5,14 @@ public class If5 {
 
         // 구매금액 할인 + 나이 할인 모두 다 중복되게 받을 수 있음
         // 이럴 경우 if문을 각각 따로 사용해야함
-        
+
         int price = 10000;
         int age = 10;
         int discount = 0;
 
         if (price >= 10000) {
             discount = discount + 1000;
-            System.out.println("10000원 이상 구매, 1000원 할인");
+            System.out.println("10000원 이상 구매자, 1000원 할인");
         }
 
         if (age <= 10) {
