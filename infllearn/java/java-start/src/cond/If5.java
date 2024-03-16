@@ -12,15 +12,15 @@ public class If5 {
 
         if (price >= 10000) {
             discount = discount + 1000;
-            System.out.println("10000원 이상 구매자, 1000원 할인");
+            System.out.println("10000원 이상 구매시, 1000원 할인");
         }
 
         if (age <= 10) {
             discount = discount + 1000;
-            System.out.println("10세 이하 어린이 1000원 할인");
+            System.out.println("10세 이하 어린이는 1000원 할인");
 
         }
-        System.out.println("총 할인 금액: " + discount + "원");
+        System.out.println("총 할인 금액은 " + discount + "원 입니다.");
         }
     }
 
