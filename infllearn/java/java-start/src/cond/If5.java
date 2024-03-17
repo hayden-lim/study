@@ -11,7 +11,7 @@ public class If5 {
         int discount = 0;
 
         if (price >= 10000) {
-            discount = discount + 1000;
+            discount = discount + 2000;
             System.out.println("10000원 이상 구매시, 1000원 할인");
         }
 
