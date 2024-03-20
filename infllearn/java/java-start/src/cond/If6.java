@@ -8,14 +8,14 @@ public class If6 {
 
         if (price >= 10000) {
             discount = discount + 1000;
-            System.out.println("10000원 이상 구매, 1000원 할인");
+            System.out.println("10000원 이상 구매시 1000원 할인");
 
         } else if (age <= 10) { // else if로 먼저 가격조건이 성립되었기 때문에 할인 중복적용이 안됨
             discount = discount + 1000;
-            System.out.println("10세 이하 어린이 1000원 할인");
+            System.out.println("10세 이하 어린이는 1000원 할인");
 
         } else {
-            System.out.println("할인 없음");
+            System.out.println("미 해당시 할인 없음");
 
         }
         System.out.println("총 할인 금액: " + discount + "원");
