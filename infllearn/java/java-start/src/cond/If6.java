@@ -25,7 +25,7 @@ public class If6 {
 
         if (false)
             System.out.println("if 문에서 실행됨");
-            System.out.println("if 문에서 실행 안됨");
+            System.out.println(" if 문에서 실행 안됨");
 
     } //고민할 필요 없이 중괄호(코드 블럭)을 사용하자!!
 }
