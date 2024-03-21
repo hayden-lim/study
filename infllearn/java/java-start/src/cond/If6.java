@@ -15,7 +15,7 @@ public class If6 {
             System.out.println("10세 이하 어린이는 1000원 할인");
 
         } else {
-            System.out.println("미 해당시 할인 없음");
+            System.out.println("미 해당시엔 별도 할인 없음");
 
         }
         System.out.println("총 할인 금액: " + discount + "원");
