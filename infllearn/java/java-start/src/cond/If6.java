@@ -20,12 +20,12 @@ public class If6 {
         }
         System.out.println("총 할인 금액: " + discount + "원");
 
-        if (true) System.out.println("if 문에서 실행됨");
+        if (true) System.out.println("if 문에서 실행된다");
             // 코드가 1줄일 떈 }{ 코드 블럭 생략 가능하나 권장하지 않음
 
         if (false)
-            System.out.println("if 문에서 실행됨");
-            System.out.println(" if 문에서 실행 안됨");
+            System.out.println("if 문에서 실행된다");
+            System.out.println("if 문에서 실행되지 않는다");
 
     } // 고민할 필요 없이 중괄호(코드 블럭)을 사용하자!!
 }
