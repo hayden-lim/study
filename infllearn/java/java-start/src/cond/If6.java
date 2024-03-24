@@ -14,6 +14,8 @@ public class If6 {
             discount = discount + 1000;
             System.out.println("10세 이하 어린이는 1000원 할인");
 
+        // else if 의 경우 둘 중 하나만 적용된다.
+
         } else {
             System.out.println("미 해당시엔 별도 할인 없음");
 
