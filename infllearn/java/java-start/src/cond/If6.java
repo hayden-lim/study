@@ -14,7 +14,7 @@ public class If6 {
             discount = discount + 1000;
             System.out.println("10세 이하 어린이는 1000원 할인");
 
-        // else if 의 경우 둘 중 하나만 적용된다.
+        // else if 의 경우 둘 중 하나만 적용된다. (if문으로 한 번 걸러진 끝난 상태에서 else if 이기 때문)
 
         } else {
             System.out.println("미 해당시엔 별도 할인 없음");
