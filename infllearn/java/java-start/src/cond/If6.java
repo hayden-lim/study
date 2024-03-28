@@ -17,7 +17,7 @@ public class If6 {
         // else if 의 경우 둘 중 하나만 적용된다. (if문으로 한 번 걸러진 끝난 상태에서 else if 이기 때문)
 
         } else {
-            System.out.println("어느것도 미 해당시엔 별도 할인 없음");
+            System.out.println("미해당시엔 별도 할인 없음");
 
         }
         System.out.println("총 할인 금액: " + discount + "원");
