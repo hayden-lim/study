@@ -29,6 +29,6 @@ public class If6 {
             System.out.println(" if 문에서 실행된다 ");
             System.out.println(" if 문에서 실행되지 않는다 ");
 
-    } // 고민할 필요 없이 중괄호({}= 코드블럭)을 사용하자.
+    } // 고민할 필요 없이 중괄호({}= 코드블럭)을 사용해도 된다
 }
 
